@@ -9,7 +9,7 @@ RUN curl -L https://github.com/watchexec/cargo-watch/releases/download/v8.1.2/ca
 RUN curl -LO https://github.com/denoland/deno/releases/download/v1.26.2/deno-x86_64-unknown-linux-gnu.zip
 RUN unzip deno-x86_64-unknown-linux-gnu.zip -d ~/.local/bin
 
-RUN git clone https://github.com/tyvdh/soroban-quest--pioneer.git ~/.local/_tmp/soroban-quest && \
+RUN git clone https://github.com/Kanaye/soroban-quest--pioneer.git ~/.local/_tmp/soroban-quest && \
     mv ~/.local/_tmp/soroban-quest/_client ~/.local && \
     cd ~/.local/_tmp/soroban-quest/_squirtle && \
     mv bash-hook ~/.local/sq-bash-hook && \
